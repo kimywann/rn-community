@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 export default function SettingScreen() {
   return (
     <SafeAreaView>
-      <Text>Setting 스크린</Text>
+      <Text>설정 스크린</Text>
     </SafeAreaView>
   );
 }
