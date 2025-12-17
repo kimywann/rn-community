@@ -11,7 +11,13 @@ export default function MyLayout() {
         },
       }}
     >
-      <Stack.Screen name="index" options={{ headerShown: false, title: '내 프로필' }} />
+      <Stack.Screen
+        name="index"
+        options={{
+          headerShown: false,
+          title: '내 프로필',
+        }}
+      />
     </Stack>
   );
 }
