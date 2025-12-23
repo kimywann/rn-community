@@ -22,6 +22,15 @@ export default function AuthLayout() {
         options={{
           title: '이메일 로그인',
           headerShown: true,
+          headerBackButtonDisplayMode: 'minimal',
+        }}
+      />
+      <Stack.Screen
+        name="signup"
+        options={{
+          title: '이메일 가입',
+          headerShown: true,
+          headerBackButtonDisplayMode: 'minimal',
         }}
       />
     </Stack>
