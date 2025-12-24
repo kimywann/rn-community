@@ -2,7 +2,7 @@ import FixedBottomCTA from '@/components/FixedBottomCTA';
 import InputField from '@/components/InputField';
 import { StyleSheet, View } from 'react-native';
 
-export default function LoginScreen() {
+export default function SignupScreen() {
   return (
     <>
       <View style={styles.container}>
